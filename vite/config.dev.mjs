@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: './VM_GAME',
+    base: '/VM_GAME/',
     build: {
         rollupOptions: {
             output: {
