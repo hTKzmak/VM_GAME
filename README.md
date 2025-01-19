@@ -1,8 +1,3 @@
-<div id="header">
-  <img src="./banner.png/>
-</div>
-
-##
 Result: ╮(￣ω￣;)╭
 
 ## Description
