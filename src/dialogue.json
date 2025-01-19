@@ -1,0 +1,36 @@
+[
+    {
+        "entity": "Pet",
+        "dialogues": [
+            "Keep you waiting, huh?",
+            "Although time doesn't matter here."
+        ]
+    },
+    {
+        "entity": "Door",
+        "dialogues": [
+            "Looks like some kind of way out.",
+            "There's hardly anything else to see here.",
+            "Is it worth leaving here?"
+        ]
+    },
+    {
+        "entity": "Button",
+        "dialogues": [
+            "Press this button?"
+        ]
+    },
+    {
+        "entity": "Bubbles",
+        "dialogues": [
+            "Looks like some bubbles.",
+            "But why they are dark?"
+        ]
+    },
+    {
+        "entity": "smth",
+        "dialogues": [
+            "???"
+        ]
+    }
+]
