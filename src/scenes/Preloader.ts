@@ -68,8 +68,8 @@ export class Preloader extends Scene {
         this.load.image("rain", 'assets/sprites/rain.png')
         this.load.image("ripple", 'assets/sprites/ripple.png')
 
-        // Entities
-
+        // Fonts
+        this.load.font("pixy", "assets/fonts/PIXY.ttf")
     }
 
     create() {

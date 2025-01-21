@@ -105,22 +105,22 @@ export class Player extends Entity {
         if ((keys.up.isDown || keyW.isDown) && this.notTalking) {
             this.play('up', true)
             // this.setPosition(this.x, this.y - delta * 0.25)
-            this.setVelocity(0, -delta * this.moveSpeed)
+            this.setVelocity(0, -15 * this.moveSpeed)
         }
         else if ((keys.down.isDown || keyS.isDown) && this.notTalking) {
             this.play('down', true)
             // this.setPosition(this.x, this.y + delta * 0.25)
-            this.setVelocity(0, delta * this.moveSpeed)
+            this.setVelocity(0, 15 * this.moveSpeed)
         }
         else if ((keys.left.isDown || keyA.isDown) && this.notTalking) {
             this.play('left', true)
             // this.setPosition(this.x - delta * 0.25, this.y)
-            this.setVelocity(-delta * this.moveSpeed, 0)
+            this.setVelocity(-15 * this.moveSpeed, 0)
         }
         else if ((keys.right.isDown || keyD.isDown) && this.notTalking) {
             this.play('right', true)
             // this.setPosition(this.x + delta * 0.25, this.y)
-            this.setVelocity(delta * this.moveSpeed, 0)
+            this.setVelocity(15 * this.moveSpeed, 0)
         }
         else if (Phaser.Input.Keyboard.JustDown(keyE) && this.notTalking) {
             const target = this.findTarget(this.entities);

@@ -9,7 +9,8 @@ export class GameOver extends Scene {
     }
 
     create() {
-        document.title = "Exiting"
+        document.title = "A Game by Melnik"
+        console.log("A Game by Melnik (https://github.com/hTKzmak)")
 
         this.camera = this.cameras.main
         this.camera.setBackgroundColor("#000000");
